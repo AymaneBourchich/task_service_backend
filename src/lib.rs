@@ -1,4 +1,6 @@
-pub mod task; 
+pub mod task;
+pub mod web;
+// use crate::task::task_service::TaskService;
 // use actix_web::{App, HttpServer};
 // use crate::web::routes::*;
 
