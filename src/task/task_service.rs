@@ -7,9 +7,10 @@ pub struct TaskService {
 
 impl TaskService {
     pub fn new() -> Self {
-        Self {
-            repository: TaskRepository::new(),
-        }
+        let mut repository = TaskRepository::new();
+        repository.add_task("LEARN RUST".to_string()); // create initial task
+
+        Self { repository }
     }
 
     pub fn create_task(&mut self, title: String) -> u64 {
