@@ -1,4 +1,16 @@
-pub mod task;
-pub mod task_service;
-pub mod task_repository;
-pub mod web;
+pub mod task; 
+// use actix_web::{App, HttpServer};
+// use crate::web::routes::*;
+
+// #[actix_web::main]
+// async fn main() -> std::io::Result<()> {
+//     let service = TaskService::new();
+//     HttpServer::new(move || {
+//         App::new()
+//             .app_data(actix_web::web::Data::new(service.clone()))
+//             .service(list_tasks)
+//     })
+//     .bind(("127.0.0.1", 8080))?
+//     .run()
+//     .await
+// }

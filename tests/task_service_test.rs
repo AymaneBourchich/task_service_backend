@@ -1,5 +1,5 @@
-use task_service::task_service::TaskService;
-use task_service::task::Task;
+use task_service::task::task_service::TaskService;
+use task_service::task::task::Task;
 
 #[test]
 fn create_task_returns_valid_id() {

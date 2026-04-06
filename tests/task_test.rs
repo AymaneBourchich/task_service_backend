@@ -1,4 +1,4 @@
-use task_service::task::Task;
+use task_service::task::task::Task;
 
 #[test]
 fn task_creation_works() {

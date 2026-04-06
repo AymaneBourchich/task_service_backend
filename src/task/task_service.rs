@@ -1,5 +1,5 @@
-use crate::task::Task;
-use crate::task_repository::TaskRepository;
+use crate::task::task::Task;
+use crate::task::task_repository::TaskRepository;
 
 pub struct TaskService {
     repository: TaskRepository,

@@ -1,4 +1,4 @@
-use crate::task::Task;
+use crate::task::task::Task;
 use std::collections::HashMap;
 
 pub struct TaskRepository {
